@@ -5,7 +5,7 @@ Students often struggle to **maintain focus, energy, or calmness** while studyin
 
 ## 💡 Problem Solved 
 Moodify acts as a **chat-based study companion** 🎶  
-- You tell the bot your **current mood** (e.g., `happy`, `sad`, `stressed`, `energetic`, `tired`, `angry`, `burntout`, `focused`).  
+- You tell the bot your **current mood** (e.g., `stressed`, `tired`, `burntout`, `focused`).  
 - The bot suggests a **matching playlist** instantly.  
 - No need to search manually → keeps you in flow while studying.
   
@@ -13,7 +13,7 @@ Moodify acts as a **chat-based study companion** 🎶
 - 🎭 **Natural Conversations** – Type freely, no need to stick to just mood keywords.  
 - 🔄 **New Conversation** – Restart anytime with the reload option.  
 - 🎶 **Mood-based Playlists** – Quick study playlists tailored to your emotions.  
-- 💬 **Multiple Moods Supported** – Happy, sad, stressed, energetic, tired, angry, burnt-out, focused.  
+- 💬 **Multiple Moods Supported** – Happy, sad, stressed, energetic, tired, angry, burntout, focused.  
 - 🧑‍💻 **Minimal & Fast** – Clean UI, built with pure JavaScript.
 
 ## 🛠️ TechStack 
