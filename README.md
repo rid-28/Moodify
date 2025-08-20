@@ -27,6 +27,7 @@ Moodify acts as a **chat-based study companion** 🎶
 
 ## 📸 Screenshots  
 <img width="1920" height="950" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/36d6ee3c-c1c9-4b9e-a839-7bf4e42dbbfe" />
+
 <img width="1920" height="898" alt="Screenshot (120)" src="https://github.com/user-attachments/assets/b086ea92-483a-4d45-86f5-e32cec5535b1" />
 
 ## 🌐 Live Site
