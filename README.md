@@ -17,7 +17,6 @@ Moodify acts as a **chat-based study companion** 🎶
 - **HTML5**
 - **CSS3**
 - **JavaScript (Vanilla JS)** →  
-- **YouTube Embed**
 
 ## 📸 Screenshots  
 <img width="1920" height="950" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/36d6ee3c-c1c9-4b9e-a839-7bf4e42dbbfe" />
