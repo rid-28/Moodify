@@ -20,6 +20,10 @@ Moodify acts as a **chat-based study companion** 🎶
 - **YouTube Embed**
 
 ## 📸 Screenshots  
-(Add screenshots of your chatbot UI here once available!)  
+<img width="1920" height="950" alt="Screenshot (119)" src="https://github.com/user-attachments/assets/36d6ee3c-c1c9-4b9e-a839-7bf4e42dbbfe" />
+<img width="1920" height="898" alt="Screenshot (120)" src="https://github.com/user-attachments/assets/b086ea92-483a-4d45-86f5-e32cec5535b1" />
 
+## 🌐 Live Site
+
+👉Click here to visit the live site[https://rid-28.github.io/Moodify/]
 
