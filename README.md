@@ -24,5 +24,5 @@ Moodify acts as a **chat-based study companion** 🎶
 
 ## 🌐 Live Site
 
-👉Click here to visit the live site[https://rid-28.github.io/Moodify/]
+👉[Click here to visit the live site](https://rid-28.github.io/Moodify/)
 
