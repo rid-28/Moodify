@@ -110,3 +110,30 @@ function detectMood(message) {
   return null;
 }
 
+const voiceBtn = document.getElementById('voice-btn');
+
+let recognition;
+if ('webkitSpeechRecognition' in window) {
+  recognition = new webkitSpeechRecognition();
+  recognition.lang = 'en-US';
+  recognition.continuous = false;
+  recognition.interimResults = false;
+
+  recognition.onresult = function(event) {
+    const transcript = event.results[0][0].transcript;
+    userInput.value = transcript;
+    sendBtn.click();
+  };
+
+  recognition.onerror = function(event) {
+    console.log("Speech recognition error:", event.error);
+  };
+}
+
+voiceBtn.addEventListener('click', () => {
+  if (!recognition) {
+    alert("Speech Recognition not supported in this browser.");
+    return;
+  }
+  recognition.start();
+});
