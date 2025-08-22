@@ -14,7 +14,8 @@ Moodify acts as a **chat-based study companion** 🎶
 - 🎤 **Voice Chat Option** – Talk directly in English, and the bot understands your mood.
 - 🔄 **New Conversation** – Restart anytime with the reload option.  
 - 🎶 **Mood-based Playlists** – Quick study playlists tailored to your emotions.  
-- 💬 **Multiple Moods Supported** – Happy, sad, stressed, energetic, tired, angry, burntout, focused.  
+- 💬 **Multiple Moods Supported** – Happy, sad, stressed, energetic, tired, angry, burntout, focused.
+- 📱 **Mobile Responsive** – Works smoothly across desktop, tablet, and mobile screens. 
 - 🧑‍💻 **Minimal & Fast** – Clean UI, built with pure JavaScript.
 
 ## 🛠️ TechStack 
