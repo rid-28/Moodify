@@ -124,7 +124,7 @@ function addMessage(text, sender) {
 // ===== YOUTUBE API - SEARCH PLAYLISTS =====
 async function searchYouTubePlaylists(query) {
   try {
-    const url = `http://localhost:3020/yt?q=${encodeURIComponent(query)}`;
+    const url = `https://moodify-backend-r95p.onrender.com/yt?q=${encodeURIComponent(query)}`;
     const response = await fetch(url);
     const data = await response.json();
     
