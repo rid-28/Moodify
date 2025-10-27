@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moodify - AI Music Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Animated Background -->
+  <div class="background-animation" id="particles"></div>
+
+  <!-- Main App Container -->
+  <div class="app-container">
+    <!-- Left Sidebar (Desktop) -->
+    <aside class="sidebar">
+      <div class="logo-section">
+        <h1>Moodify 🎧</h1>
+        <p class="subtitle">AI Music Companion</p>
+      </div>
+      <div class="mood-presets">
+        <h3>Quick Moods</h3>
+        <button class="mood-btn" onclick="quickMood('Focused 🎯')">🎯 Focused</button>
+        <button class="mood-btn" onclick="quickMood('Energetic ⚡')">⚡ Energetic</button>
+        <button class="mood-btn" onclick="quickMood('Chill 😌')">😌 Chill</button>
+        <button class="mood-btn" onclick="quickMood('Burnt Out 😴')">😴 Burnt Out</button>
+        <button class="mood-btn" onclick="quickMood('Creative 🎨')">🎨 Creative</button>
+        <button class="mood-btn" onclick="quickMood('Study Mode 📚')">📚 Study Mode</button>
+      </div>
+    </aside>
+
+    <!-- Main Chat Area -->
+    <main class="chat-main">
+      <header class="chat-header">
+        <div class="header-left">
+          <div class="visualizer">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+          <h2 class="header-title">Moodify Chat</h2>
+        </div>
+<button class="theme-toggle" onclick="toggleTheme()" id="theme-btn">☀️</button>
+      </header>
+
+      <div class="chat-window" id="chat-window">
+        <div class="message bot-message">
+          <div class="bubble">Ready to vibe? 🎵 Tell me what mood you're in and I'll curate the perfect soundtrack for your day!</div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <input type="text" class="input-field" id="user-input" placeholder="drop your mood... ✨" />
+        <button class="voice-btn" onclick="startVoice()" title="Voice input">🎙️</button>
+        <button class="send-btn" onclick="sendMessage()">Send</button>
+      </div>
+    </main>
+
+    <!-- Right Panel (Desktop) -->
+    <aside class="right-panel">
+      <div class="now-playing">
+        <h3>NOW PLAYING</h3>
+        <div class="album-art" id="album-art">🎵</div>
+        <div class="track-info">
+          <strong id="track-name">Lofi Beats</strong><br>
+          <span class="track-details" id="track-details">Study Session Mix</span>
+        </div>
+      </div>
+      <div class="panel-visualizer">
+        <h3>Audio Visualizer</h3>
+      <div class="big-visualizer">
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+        <div class="big-bar"></div>
+      </div>
+      </div>
+      <div class="stats">
+        <h3>Session Stats</h3>
+        <div class="stat-item">
+          <span class="stat-label">Messages</span>
+          <span class="stat-value" id="message-count">0</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Active Time</span>
+          <span class="stat-value" id="active-time">0 m</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Current Mood</span>
+          <span class="stat-value" id="current-mood">Ready</span>
+        </div>
+      </div>
+    </aside>
+  </div>  
+  <script src="script.js"></script>
+</body>
+</html>
