@@ -1,35 +1,47 @@
-# 🎧 Moodify – Mood Based Study Music Bot  
+# 🎧 Moodify – AI Music Companion  
+A sleek, AI-powered music mood app that detects your mood from text or voice and curates the perfect vibe — with a beautiful animated UI, visualizers, theme switching, real-time stats, and mood presets.
 
 ## 📌 Problem Statement  
-Students often struggle to **maintain focus, energy, or calmness** while studying. Music is a powerful tool to enhance mood and productivity, but manually searching for the right playlist can be distracting and time-consuming.  
+People often struggle to identify or express their mood. Traditional mood trackers force users to pick from fixed options, which don’t always match how they actually feel.
+
+**Moodify solves this by interpreting emotions directly from natural language input.**
 
 ## 💡 Problem Solved 
-Moodify acts as a **chat-based study companion** 🎶  
-- You tell the bot your **current mood** (e.g., `stressed`, `tired`, `burntout`, `focused`).  
-- The bot suggests a **matching playlist** instantly.  
-- No need to search manually → keeps you in flow while studying.
+- Detects mood automatically from any text  
+- Helps users reflect on their emotional state  
+- Suggests mood-appropriate activities/content  
+- Removes the need for predefined mood categories 
   
-## ✨ Features  
-- 🎭 **Natural Conversations** – Type freely, no need to stick to just mood keywords.
-- 🎤 **Voice Chat Option** – Talk directly in English, and the bot understands your mood.
-- 🔄 **New Conversation** – Restart anytime with the reload option.  
-- 🎶 **Mood-based Playlists** – Quick study playlists tailored to your emotions.  
-- 💬 **Multiple Moods Supported** – Happy, sad, stressed, energetic, tired, angry, burntout, focused.
-- 📱 **Mobile Responsive** – Works smoothly across desktop, tablet, and mobile screens. 
-- 🧑‍💻 **Minimal & Fast** – Clean UI, built with pure JavaScript.
+## ✨ Features
+- 🎭 **Natural Conversational Input** – Express yourself freely; the AI understands full sentences, not just mood keywords.
+- 🎤 **Voice Chat Support** – Speak in English and let the app detect your mood through your spoken words.
+- 🧠 **AI-Powered Mood Detection** – Advanced NLP model interprets tone, emotion, and context from your input.
+- 🎶 **Smart Music Recommendations** – Generates mood-appropriate playlists and song suggestions.
+- 🌓 **Light & Dark Mode** – Seamless theme switching based on user preference.
+- 📊 **Real-Time Session Stats** – Tracks mood changes and interaction insights for the session.
+- 🎛 **Live Audio Visualizers** – Animated visual effects that respond to music and mood.
+- 📱 **Fully Responsive UI** – Optimized for desktop, tablet, and mobile.
+- 🌈 **Aesthetic Neon UI** – Smooth gradients with a clean, modern look.
+- 🎨 **Glassmorphism + Smooth Animations** – Polished UI elements with subtle motion and depth.
 
 ## 🛠️ TechStack 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla JS)**
-  
-## ⚡ Future scope
-  - Improve mood detection with NLP/AI  
-  - Expand playlist collection with more variety   
+- **Frontend:** HTML, CSS, JavaScript
+- **API:** Youtube API (for mood detection)
+- **Deployment:** Render
+- **Version Control:** Git & GitHub
 
 ## 📸 Screenshots  
-<img width="1574" height="885" alt="Screenshot (125)" src="https://github.com/user-attachments/assets/aada676c-3351-42cb-a677-a3be1f38f6b7" />
-<img width="1559" height="877" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/0ae929c7-121f-457f-b240-f53767c3e123" />
+
+## 🧪 How It Works  
+1. User types or speaks their mood  
+2. Script analyzes emotional keywords / tone  
+3. App generates a personalized mood label  
+4. Updates:
+   - Chat response  
+   - “Now Playing” panel  
+   - Visualizers  
+   - Theme color accents  
+5. Stats increment automatically
 
 ## 🌐 Live Site
-👉[Click here to visit the live site](https://rid-28.github.io/Moodify/)
+👉[Click here to visit the live site](https://moodify-frontend-i63e.onrender.com)
